@@ -48,5 +48,5 @@ make schedule
 Изменить время запуска можно в [Makefile][]. Используется cron-формат.
 
 
-[исходный код]: https://github.com/mihailag/sf__doc_automation/releases
+[исходный код]: https://github.com/mihailag/sf__doc_automation/archive/master.zip
 [Makefile]: https://github.com/mihailag/sf__doc_automation/blob/master/Makefile
