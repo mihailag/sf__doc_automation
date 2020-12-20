@@ -47,4 +47,4 @@ make schedule
 
 
 [исходный код]: https://github.com/mihailag/sf__doc_automation/releases
-[Makefile]: https://github.com/mihailag/sf__doc_automation/Makefile
+[Makefile]: https://github.com/mihailag/sf__doc_automation/blob/master/Makefile
