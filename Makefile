@@ -1,8 +1,11 @@
 # Makefile
 SITE=https://www.chiark.greenend.org.uk/~sgtatham/bugs-ru.html
 IMAGE=sf_doc
-#USER=
-#IP=
+
+ifneq (,$(wildcard ./.env))
+	include .env
+	export
+endif
 
 sync:
 	wget --mirror -p --convert-links -nd -P mirror_doc $(SITE) || true
